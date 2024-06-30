@@ -1,0 +1,15 @@
+function studentMarkGen(marks) {
+  if (marks < 40) {
+    return "not possible";
+  } else if (marks >= 40 && marks < 49) {
+    return "E";
+  } else if (marks >= 49 && marks < 59) {
+    return "D";
+  } else if (marks >= 59 && marks < 79) {
+    return "C";
+  } else if (marks >= 79 && marks < 90) {
+    return "B";
+  } else {
+    return "A";
+  }
+}
